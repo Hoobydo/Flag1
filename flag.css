@@ -1,0 +1,48 @@
+ 
+.black{
+    background-color: black;
+    left:200px;
+
+   
+} 
+
+.yellow{
+    background-color: yellow;
+    left:400px;
+}
+.red{
+    background-color: red;
+    left:600px;
+    
+}
+
+.height{
+    height:500px;
+    width: 200px;
+    position:absolute
+}
+.text{
+    top: 520px;
+    position: absolute;
+    left: 210px;
+  
+}
+/* .all:hover .height{
+     background: url(pokemon-jigglypuff.gif); 
+     background-repeat: no-repeat;
+} */
+
+/* .all {
+    position: relative;
+} */
+
+.all:hover:after {
+    content: '';
+    position: absolute;
+    
+    left:200px;
+    width: 600px;
+    height: 500px;
+    background: url(pokemon-jigglypuff.gif); 
+    background-size: cover;
+}
